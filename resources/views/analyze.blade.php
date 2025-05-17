@@ -220,7 +220,7 @@
                     card.className = 'bg-gray-50 p-6 rounded-xl border border-gray-200';
                     card.innerHTML = `
                 <div class="flex items-center justify-between mb-4">
-                    <h3 class="text-lg font-semibold text-blue-600">${modelNames[output.model_id] ?? 'Bilinmeyen Model'} Çıktısı</h3>
+                    <h3 class="text-lg font-semibold text-blue-600">${modelNames[output.model_id] ?? 'Model'} Çıktısı</h3>
                     <span class="text-sm text-gray-500">ID: ${output.model_id}</span>
                 </div>
 

@@ -237,66 +237,66 @@
 
             <div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
                 <!-- Top Agents Card -->
-                <div class="overflow-hidden bg-white border border-gray-100 shadow-md rounded-xl">
-                    <div class="p-6">
-                        <h2 class="flex items-center mb-4 text-lg font-semibold text-gray-800">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2 text-blue-600" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                            </svg>
-                            Popüler Ajanlar
-                        </h2>
-                        <div class="space-y-3">
-                            <div class="relative">
-                                <div class="flex justify-between mb-1 text-sm">
-                                    <span class="font-medium text-gray-700">GPT-4</span>
-                                    <span class="text-blue-600">82%</span>
-                                </div>
-                                <div class="flex h-2 overflow-hidden text-xs bg-gray-100 rounded-full">
-                                    <div style="width: 82%" class="bg-blue-600 rounded-full"></div>
-                                </div>
-                            </div>
-                            <div class="relative">
-                                <div class="flex justify-between mb-1 text-sm">
-                                    <span class="font-medium text-gray-700">Claude 3</span>
-                                    <span class="text-blue-600">65%</span>
-                                </div>
-                                <div class="flex h-2 overflow-hidden text-xs bg-gray-100 rounded-full">
-                                    <div style="width: 65%" class="bg-blue-600 rounded-full"></div>
-                                </div>
-                            </div>
-                            <div class="relative">
-                                <div class="flex justify-between mb-1 text-sm">
-                                    <span class="font-medium text-gray-700">LLaMA 3</span>
-                                    <span class="text-blue-600">48%</span>
-                                </div>
-                                <div class="flex h-2 overflow-hidden text-xs bg-gray-100 rounded-full">
-                                    <div style="width: 48%" class="bg-blue-600 rounded-full"></div>
-                                </div>
-                            </div>
-                            <div class="relative">
-                                <div class="flex justify-between mb-1 text-sm">
-                                    <span class="font-medium text-gray-700">Gemini</span>
-                                    <span class="text-blue-600">34%</span>
-                                </div>
-                                <div class="flex h-2 overflow-hidden text-xs bg-gray-100 rounded-full">
-                                    <div style="width: 34%" class="bg-blue-600 rounded-full"></div>
-                                </div>
-                            </div>
-                        </div>
+            <div class="overflow-hidden bg-white border border-gray-100 shadow-md rounded-xl">
+        <div class="p-6">
+            <h2 class="flex items-center mb-4 text-lg font-semibold text-gray-800">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2 text-blue-600" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+                Popüler Ajanlar
+            </h2>
+            <div class="space-y-3">
+                <div class="relative">
+                    <div class="flex justify-between mb-1 text-sm">
+                        <span class="font-medium text-gray-700">GPT-4.5 (OpenAI)</span>
+                        <span class="text-blue-600">88%</span>
                     </div>
-                    <div class="px-6 py-3 border-t border-gray-100 bg-gray-50">
-                        <a href="https://www.shakudo.io/blog/top-9-large-language-models"
-                            class="flex items-center justify-center text-sm font-medium text-blue-600 hover:text-blue-800">
-                            Tüm istatistikleri görüntüle
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-1" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                            </svg>
-                        </a>
+                    <div class="flex h-2 overflow-hidden text-xs bg-gray-100 rounded-full">
+                        <div style="width: 88%" class="bg-blue-600 rounded-full"></div>
                     </div>
                 </div>
+                <div class="relative">
+                    <div class="flex justify-between mb-1 text-sm">
+                        <span class="font-medium text-gray-700">Claude 3 (Anthropic)</span>
+                        <span class="text-blue-600">75%</span>
+                    </div>
+                    <div class="flex h-2 overflow-hidden text-xs bg-gray-100 rounded-full">
+                        <div style="width: 75%" class="bg-blue-600 rounded-full"></div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="flex justify-between mb-1 text-sm">
+                        <span class="font-medium text-gray-700">LLaMA 3 (Meta)</span>
+                        <span class="text-blue-600">60%</span>
+                    </div>
+                    <div class="flex h-2 overflow-hidden text-xs bg-gray-100 rounded-full">
+                        <div style="width: 60%" class="bg-blue-600 rounded-full"></div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="flex justify-between mb-1 text-sm">
+                        <span class="font-medium text-gray-700">Gemini 1.5 (Google)</span>
+                        <span class="text-blue-600">50%</span>
+                    </div>
+                    <div class="flex h-2 overflow-hidden text-xs bg-gray-100 rounded-full">
+                        <div style="width: 50%" class="bg-blue-600 rounded-full"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="px-6 py-3 border-t border-gray-100 bg-gray-50">
+            <a href="https://www.shakudo.io/blog/top-9-large-language-models"
+                class="flex items-center justify-center text-sm font-medium text-blue-600 hover:text-blue-800">
+                Tüm istatistikleri görüntüle
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-1" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+            </a>
+        </div>
+    </div>
 
                 <!-- Recent Comments -->
                 <div class="col-span-1 overflow-hidden bg-white border border-gray-100 shadow-md rounded-xl lg:col-span-2">
@@ -349,7 +349,7 @@
                                             d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
                                     </svg>
                                     <p class="mb-2 text-gray-500">Henüz yorum yapılmamış.</p>
-                                    <a href="/new-comment"
+                                    <a href="/comments"
                                         class="px-4 py-2 text-sm text-white transition-colors bg-blue-600 rounded-lg hover:bg-blue-700">
                                         İlk yorumu siz yapın
                                     </a>
@@ -432,7 +432,7 @@
                                         d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                                 </svg>
                                 <p class="mb-2 text-gray-500">Henüz sohbet bulunmuyor.</p>
-                                <a href="/new-chat"
+                                <a href="/chat/create"
                                     class="px-4 py-2 text-sm text-white transition-colors bg-blue-600 rounded-lg hover:bg-blue-700">
                                     Yeni sohbet başlat
                                 </a>
